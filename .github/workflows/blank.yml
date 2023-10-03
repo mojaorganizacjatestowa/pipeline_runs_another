@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: RunAntoher
 
 # Controls when the workflow will run
 on:
@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   call-workflow-passing-data:
-    uses: mojaorganizacjatestowa/actionspipeline/.github/workflows/downstream.yml@main
+    uses: mojaorganizacjatestowa/actionspipeline/.github/workflows/downstream.yaml@main
